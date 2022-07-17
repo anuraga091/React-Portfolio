@@ -54,13 +54,13 @@ const Image = styled('img')`
 `;
 
 const NavbarItems = styled('div')`
-      @media (min-width: 768px){
-        background: rgba( 31, 29, 54, 0.1 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 8.5px );
-        -webkit-backdrop-filter: blur( 8.5px );
+      
+    background: rgba( 31, 29, 54, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
         
-      }
+      
       
   header{
     display: flex;
@@ -69,10 +69,7 @@ const NavbarItems = styled('div')`
     height: 60px;
     padding: 0 2rem;
     color: #fff;
-    background: rgba( 31, 29, 54, 1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 14.5px );
-    -webkit-backdrop-filter: blur( 14.5px );
+   
     
 
     
@@ -94,7 +91,7 @@ const NavbarItems = styled('div')`
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
 
     :hover{
       color: #f345;
@@ -125,10 +122,10 @@ const NavbarItems = styled('div')`
       gap: 1.5rem;
       transition: 0.5s;
       transform: translateX(-100%);
-      background: rgba( 31, 29, 54, 0.1 );
+      background: rgba( 31, 29, 54, 0.95 );
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 8.5px );
-      -webkit-backdrop-filter: blur( 8.5px );
+      backdrop-filter: blur( 1px );
+      -webkit-backdrop-filter: blur( 1px );
       border-radius: 5px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
