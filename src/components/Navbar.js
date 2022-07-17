@@ -117,7 +117,7 @@ const NavbarItems = styled('div')`
       position: fixed;
       top: 0;
       left: 0;
-      height: 100%;
+      height: 80vh;
       width: 75%;
       display: flex;
       flex-direction: column;
