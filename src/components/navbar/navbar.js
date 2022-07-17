@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import { Button} from 'react-bootstrap';
 import styled from 'styled-components';
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa';
 
 
 const Navigation = () => {
@@ -124,4 +124,4 @@ const NavbarItems = styled('div')`
   }
 `;
 
-export default Navigation
+export default Navigation;
