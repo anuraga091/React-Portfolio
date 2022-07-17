@@ -42,13 +42,26 @@ const Image = styled('img')`
 `;
 
 const NavbarItems = styled('div')`
+      @media (min-width: 1024px){
+        background: rgba( 31, 29, 54, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        
+      }
+      
   header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
     padding: 0 2rem;
     color: #fff;
+    background: rgba( 31, 29, 54, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    
 
     
   }
@@ -90,7 +103,7 @@ const NavbarItems = styled('div')`
       position: fixed;
       top: 0;
       left: 0;
-      height: 100%;
+      height: 84vh;
       width: 75%;
       display: flex;
       flex-direction: column;
@@ -117,8 +130,8 @@ const NavbarItems = styled('div')`
 
     nav .nav-close-btn{
       position: absolute;
-      top: 1.4rem;
-      left: 2rem;
+      top: 0.7rem;
+      left: 1.9rem;
     }
    
   }
