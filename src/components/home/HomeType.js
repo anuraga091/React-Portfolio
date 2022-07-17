@@ -43,13 +43,11 @@ const Div = styled('div')`
     font-size: 1.4em !important;
     font-weight: 500 !important;
     position: absolute !important;
-    text-align: center;
-    align-items: center;
+    
   }
   .Typewriter__cursor {
     display: none !important;
-    text-align: center;
-    align-items: center;
+   
   }
 }
 `;
