@@ -15,7 +15,7 @@ const Home = () => {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="wave" role="img" aria-labelledby="wave" >
                   👋🏻
                 </span>
               </h1>
@@ -54,6 +54,7 @@ const Section = styled('section')`
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+  z-index: -2;
 }
 
 @keyframes wave-animation {
