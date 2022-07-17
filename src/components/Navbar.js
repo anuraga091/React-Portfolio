@@ -93,7 +93,7 @@ const NavbarItems = styled('div')`
     margin: 0 3rem;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 
     :hover{
