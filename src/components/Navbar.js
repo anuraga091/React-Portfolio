@@ -54,7 +54,7 @@ const Image = styled('img')`
 `;
 
 const NavbarItems = styled('div')`
-      @media (min-width: 1024px){
+      @media (min-width: 768px){
         background: rgba( 31, 29, 54, 0.1 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 8.5px );
@@ -107,7 +107,7 @@ const NavbarItems = styled('div')`
 
   
 
-  @media only screen and (max-width: 1024px){
+  @media only screen and (max-width: 768px){
     header .nav-btn{
       visibility: visible;
       opacity: 1;
