@@ -2,6 +2,16 @@ import React, {useRef} from 'react';
 import { Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import {FaBars, FaTimes} from 'react-icons/fa';
+import { CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
+import {
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+} from "react-icons/ai";
+
+import { CgFileDocument } from "react-icons/cg";
 
 
 const Navigation = () => {
@@ -21,11 +31,13 @@ const Navigation = () => {
           <Button className='nav-btn nav-close-btn' onClick={showNavbar}>
             <FaTimes/>
           </Button>
-            <a href="#home">Home</a>
-            <a href="#features">About</a>
-            <a href="#pricing">Projects</a>
-            <a href="#pricing">Resume</a>
-            <a href="#pricing">Blogs (Coming Soon...)</a> 
+            <a href="#home">  <AiOutlineHome style={{ marginRight: "10px",height:'0.9em',width:'0.9em' }} /> Home</a>
+            <a href="#features"><AiOutlineUser style={{ marginRight: "10px",height:'0.9em',width:'0.9em' }} /> About</a>
+            <a href="#pricing"><AiOutlineFundProjectionScreen
+                  style={{ marginRight: "10px",height:'0.9em',width:'0.9em' }}
+                /> Projects</a>
+            <a href="#pricing"><CgFileDocument style={{ marginRight: "10px",height:'0.9em',width:'0.9em' }} />  Resume</a>
+            <a href="#pricing"> <ImBlog style={{ marginRight: "10px",height:'0.9em',width:'0.9em' }} /> Blogs (Coming Soon...)</a> 
         </nav>
         <div>
             <Image src="/images/Anurag.jpeg" className="img-fluid logo" alt="brand" />
@@ -81,6 +93,8 @@ const NavbarItems = styled('div')`
     margin: 0 3rem;
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
+    font-weight: 700;
 
     :hover{
       color: #f345;
@@ -103,12 +117,12 @@ const NavbarItems = styled('div')`
       position: fixed;
       top: 0;
       left: 0;
-      height: 84vh;
+      height: 100%;
       width: 75%;
       display: flex;
       flex-direction: column;
       padding-top: 100px;
-      gap: 1rem;
+      gap: 1.5rem;
       transition: 0.5s;
       transform: translateX(-100%);
       background: rgba( 31, 29, 54, 0.1 );
@@ -120,7 +134,7 @@ const NavbarItems = styled('div')`
     }
 
     nav a{
-      margin: 0 2rem;
+      margin: 0 0 0 2rem;
     }
   
 
