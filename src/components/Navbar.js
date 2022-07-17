@@ -96,7 +96,7 @@ const NavbarItems = styled('div')`
       flex-direction: column;
       padding-top: 100px;
       gap: 1rem;
-      transition: 1s;
+      transition: 0.5s;
       transform: translateX(-100%);
       background: rgba( 31, 29, 54, 0.1 );
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
