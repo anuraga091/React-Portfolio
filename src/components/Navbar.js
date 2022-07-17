@@ -2,10 +2,10 @@ import React, {useRef} from 'react';
 import { Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import { CgGitFork } from "react-icons/cg";
+
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
+  
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
